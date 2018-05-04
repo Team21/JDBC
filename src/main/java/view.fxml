@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="806.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+    <children>
+        <Label layoutX="35.0" layoutY="38.0" text="Список сотрудников:" />
+      <TextArea fx:id="mainTextArea" layoutX="24.0" layoutY="55.0" prefHeight="317.0" prefWidth="734.0" />
+        <Button layoutX="352.0" layoutY="495.0" mnemonicParsing="false" onAction="#searchButtonEvent" prefHeight="25.0" prefWidth="276.0" text="Искать" />
+        <Label layoutX="24.0" layoutY="388.0" prefHeight="17.0" prefWidth="178.0" text="Информация">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label layoutX="24.0" layoutY="420.0" text="Номер:" />
+        <TextField fx:id="inpEmpNo" layoutX="139.0" layoutY="416.0" prefHeight="25.0" prefWidth="158.0" />
+        <Label layoutX="24.0" layoutY="461.0" text="Имя сотрудника:" />
+        <TextField fx:id="inpEName" layoutX="139.0" layoutY="457.0" prefHeight="25.0" prefWidth="158.0" />
+        <Label layoutX="25.0" layoutY="536.0" text="Менеджер:" />
+      <TextField fx:id="inpMgr" layoutX="139.0" layoutY="532.0" prefHeight="25.0" prefWidth="158.0" />
+        <Label layoutX="30.0" layoutY="575.0" text="Зарплата:" />
+        <TextField fx:id="inpSal" layoutX="139.0" layoutY="571.0" prefHeight="25.0" prefWidth="158.0" />
+        <Label layoutX="343.0" layoutY="461.0" text="№ подразделения" />
+      <TextField fx:id="inpDeptNo" layoutX="468.0" layoutY="457.0" prefHeight="25.0" prefWidth="158.0" />
+      <Button fx:id="refreshButtonEvent" layoutX="687.0" layoutY="26.0" mnemonicParsing="false" onAction="#refreshButtonEvent" text="Обновить" />
+      <Button layoutX="353.0" layoutY="571.0" mnemonicParsing="false" onAction="#deleteButtonEvent" prefHeight="25.0" prefWidth="276.0" text="Удалить" />
+      <Button layoutX="353.0" layoutY="532.0" mnemonicParsing="false" onAction="#addButtonEvent" prefHeight="25.0" prefWidth="276.0" text="Добавить" />
+      <Label layoutX="24.0" layoutY="499.0" prefHeight="17.0" prefWidth="71.0" text="Должность:" />
+      <TextField fx:id="inpJob" layoutX="139.0" layoutY="495.0" prefHeight="25.0" prefWidth="158.0" />
+      <Label layoutX="343.0" layoutY="420.0" text="Комиссия:" />
+      <TextField fx:id="inpComm" layoutX="468.0" layoutY="416.0" prefHeight="25.0" prefWidth="158.0" />
+    </children>
+</AnchorPane>

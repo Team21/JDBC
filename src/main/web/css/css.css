@@ -1,0 +1,112 @@
+body {
+
+    background-color: lightgreen;
+}
+div.empno{
+	position: center;
+	background:#ffd9b3;
+}
+div.empno{
+	font-size:25px
+}
+table {
+	background-image:url('https://i.pinimg.com/originals/92/af/29/92af29b11a15d9fb618a7f964ea3b2bf.gif');
+	max-width: 100%;
+	width: 100%;
+	border-collapse: collapse;
+	border-color: orangered;
+}
+
+tr:hover td{
+	background: red;
+}
+
+input.submit {
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #050505;
+	padding: 10px 20px;
+	background: -moz-linear-gradient(
+	top,
+	#f7ff00 0%,
+	#ffbf00);
+	background: -webkit-gradient(
+	linear, left top, left bottom,
+	from(#f7ff00),
+	to(#ffbf00));
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+	border: 5px solid #000000;
+	-moz-box-shadow:
+	0px 1px 3px rgba(000,000,000,0.5),
+	inset 0px 0px 1px rgba(255,255,255,0.7);
+	-webkit-box-shadow:
+	0px 1px 3px rgba(000,000,000,0.5),
+	inset 0px 0px 1px rgba(255,255,255,0.7);
+	box-shadow:
+	0px 1px 3px rgba(000,000,000,0.5),
+	inset 0px 0px 1px rgba(255,255,255,0.7);
+	text-shadow:
+	0px -1px 0px rgba(000,000,000,0.4),
+	0px 1px 0px rgba(255,255,255,0.3);
+}
+input.submit:hover{
+	background: red;
+}
+input.submitDelete{
+	max-width: 100%;
+	width: 100%;
+}
+
+p.submit {
+
+    width: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #050505;
+    padding: 10px 20px;
+    background: -moz-linear-gradient(
+            top,
+            #f7ff00 0%,
+            #ffbf00);
+    background: -webkit-gradient(
+            linear, left top, left bottom,
+            from(#f7ff00),
+            to(#ffbf00));
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    border: 5px solid #000000;
+    -moz-box-shadow:
+            0px 1px 3px rgba(000,000,000,0.5),
+            inset 0px 0px 1px rgba(255,255,255,0.7);
+    -webkit-box-shadow:
+            0px 1px 3px rgba(000,000,000,0.5),
+            inset 0px 0px 1px rgba(255,255,255,0.7);
+    box-shadow:
+            0px 1px 3px rgba(000,000,000,0.5),
+            inset 0px 0px 1px rgba(255,255,255,0.7);
+    text-shadow:
+            0px -1px 0px rgba(000,000,000,0.4),
+            0px 1px 0px rgba(255,255,255,0.3);
+}
+p.submit:hover{
+    background: red;
+}
+
+p.submit {
+    width: 150px;
+    height: 150px;
+    padding: 50px;
+    border: 1px solid grey;
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    position: relative;
+}
+#my-button {
+    position: absolute;
+}
+
+
